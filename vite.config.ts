@@ -10,6 +10,8 @@ export default defineConfig({
       globals: {
         Buffer: true,
       },
+      protocolImports: true,
+      include: ['fs/promises'],
     }),
   ],
   resolve: {
